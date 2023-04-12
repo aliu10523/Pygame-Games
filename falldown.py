@@ -37,7 +37,7 @@ for i in range(1, 7):
     # the random_x1(width size of the right side of the floor) and gap size which is 60 for width
 
 for floor in floors:  # sets each floor speed to move up
-    floor.speedy = -2
+    floor.speedy = -2  # speeds faster
 
 def touching():
     """ Contains all the code for border/touching aspects of this game
